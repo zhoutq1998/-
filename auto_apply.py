@@ -36,3 +36,5 @@ if __name__ == "__main__":
         chrome.find_element(By.CLASS_NAME, 'btn.btn-primary.pull-left.btn-block').click()
         chrome.find_element(By.NAME, "first_item_1").click()
     chrome.close()
+
+# 徐总，强
