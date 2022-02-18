@@ -39,8 +39,8 @@ def main():
     id = args[0]
     passwd = args[1]
     day_num = 1
-    if len(args) == 3:
-        day_num = int(args[2])
+    if len(args) >= 3:
+        day_num = min(int(args[2]), 8)
     for i in range(day_num):
         apply_date = str(date.today()+timedelta(days=i))
         run(apply_date, id, passwd)
