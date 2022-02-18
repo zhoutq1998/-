@@ -19,4 +19,4 @@
 3. 支持两种运行方式：
 
     - 运行`python3 auto.py your_username your_password`会申请当天的出校
-    - 运行`python3 auto.py your_username your_password n`会申请当天及之后n-1天的出校，共n天
+    - 运行`python3 auto.py your_username your_password n`会申请当天及之后n-1天的出校，共n天，0 < n <= 8
